@@ -1,4 +1,4 @@
-# Typescript & jest template
+# Typescript & vitest template
 
 ## test
 
