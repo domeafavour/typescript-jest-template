@@ -1,11 +1,11 @@
 {
-  "name": "typescript-jest-template",
-  "version": "1.0.0",
-  "description": "TypeScript & jest template",
-  "main": "index.ts",
+  "name": "typescript-vitest-template",
+  "version": "0.1.0",
+  "description": "TypeScript & vitest template",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "jest",
-    "start": "ts-node index.ts"
+    "test": "vitest",
+    "start": "tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,8 @@
   "devDependencies": {
     "@babel/preset-env": "^7.24.4",
     "@babel/preset-typescript": "^7.24.1",
-    "@types/jest": "^29.5.12",
-    "jest": "^29.7.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.4"
+    "tsx": "^4.16.2",
+    "typescript": "^5.4.4",
+    "vitest": "^2.0.0"
   }
 }
